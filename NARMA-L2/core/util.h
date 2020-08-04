@@ -5,11 +5,13 @@
  * @brief Some utility functions.
  */
 
-#pragma once
+#ifndef UTIL_H
+#define UTIL_H
 #include <Eigen/Dense>
 #include <string>
 #include <vector>
 #include <cctype>
+#include <fstream>
 
 namespace narmal2
 {
@@ -50,3 +52,4 @@ namespace narmal2
 	}
 
 }
+#endif

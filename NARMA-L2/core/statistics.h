@@ -5,7 +5,8 @@
  * @brief Classes to record the statistics during training.
  */
 
-#pragma once
+#ifndef STATISTICS_H
+#define STATISTICS_H
 #include <vector>
 
 namespace narmal2
@@ -19,3 +20,5 @@ namespace narmal2
 		std::vector<double> valLossHistory; ///< loss history of the validation set during training
 	};
 }
+
+#endif

@@ -5,7 +5,8 @@
  * @brief Representing a layer in the network.
  */
 
-#pragma once
+#ifndef LAYER_H
+#define LAYER_H
 
 #include <Eigen/Dense>
 #include <functional>
@@ -53,3 +54,4 @@ namespace narmal2
 	};
 }
 
+#endif

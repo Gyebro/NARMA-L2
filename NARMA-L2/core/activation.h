@@ -5,7 +5,9 @@
  * @brief File containing activation functions, including Tanh, ReLu and identity.
  */
 
-#pragma once
+#ifndef ACTIVATION_H
+#define ACTIVATION_H
+
 #include <Eigen/Dense>
 
 namespace narmal2
@@ -52,3 +54,5 @@ namespace narmal2
 	 */
 	Eigen::MatrixXd didentity(const Eigen::MatrixXd& x);
 }
+
+#endif
