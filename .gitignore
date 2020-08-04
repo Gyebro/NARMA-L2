@@ -320,3 +320,6 @@ __pycache__/
 *.btm.cs
 *.odx.cs
 *.xsd.cs
+
+NARMA-L2/cmake-build-debug/
+NARMA-L2/cmake-build-release/
