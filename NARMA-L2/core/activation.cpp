@@ -33,7 +33,7 @@ namespace narmal2
 
 	Eigen::MatrixXd drelu(const Eigen::MatrixXd & x)
 	{
-		return x.array().unaryExpr([](double v) {return v < 0 ? 0 : 1; }).matrix();
+		return x.array().unaryExpr([](double v) {return v < 0.0 ? 0.0 : 1.0; }).matrix();
 	}
 
 	Eigen::MatrixXd identity(const Eigen::MatrixXd & x)
